@@ -1,4 +1,37 @@
-body {
-  background-color: bisque;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #375541;
   font-family: "Playfair Display", serif;
+}
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  background: #fff4ea;
+  text-align: center;
+  padding: 180px 0;
+}
+.hero p {
+  color: #375541;
+  font-size: 36px;
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+}
+.contact-btn {
+  background-color: #375541;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  padding: 18px 30px;
 }
