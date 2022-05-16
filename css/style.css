@@ -75,7 +75,7 @@ img {
   padding-top: 50px;
 }
 
-@media (max-width: 821px) {
+@media (max-width: 900px) {
   .hero {
     padding: 90px 0;
   }
