@@ -66,7 +66,6 @@ img {
   font-weight: bold;
   font-size: 64px;
   line-height: 85px;
-  margin-bottom: 20px;
 }
 .container p {
   line-height: 30px;
@@ -91,11 +90,17 @@ img {
   font-weight: bolder;
 }
 .project-name {
+  font-family: var(--default-font-family);
+  font-weight: bold;
   margin: 5px 0;
 }
 .weather-app-heading {
-  margin-top: 59px;
+  margin-top: 70px;
 }
+.selfie {
+  margin-top: 50px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 90px 0;
@@ -134,5 +139,10 @@ img {
 @media (max-width: 768px) {
   .weather-app-heading {
     margin-top: 10px;
+  }
+}
+@media (min-width: 988px) {
+  .weather-app-heading {
+    margin-top: 90px;
   }
 }
