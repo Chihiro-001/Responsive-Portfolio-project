@@ -39,13 +39,13 @@ img {
 .hero h2 {
   font-family: var(--default-font-family);
 }
-.contact-btn,
+.branding-btn,
 .link-btn {
   border-radius: 4px;
   text-decoration: none;
   padding: 18px 30px;
 }
-.contact-btn {
+.branding-btn {
   background-color: var(--branding-color);
   color: white;
 }
