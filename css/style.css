@@ -74,6 +74,25 @@ img {
 .description {
   padding-top: 50px;
 }
+.about-me-section {
+  padding: 150px 0;
+}
+.about-me-section h1 {
+  font-size: 64px;
+}
+.about-me-section h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-me-section p {
+  line-height: 30px;
+}
+.about-me-text {
+  margin: 25px;
+}
+.my-past {
+  font-weight: bolder;
+}
 
 @media (max-width: 900px) {
   .hero {
@@ -98,5 +117,14 @@ img {
     display: block;
     margin: 0 auto;
     width: 50%;
+  }
+  .about-me-section {
+    padding: 90px 0;
+  }
+  .about-me-section h1 {
+    font-size: 54px;
+  }
+  .about-me-section h2 {
+    font-size: 20px;
   }
 }
