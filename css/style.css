@@ -20,7 +20,6 @@ a {
 }
 img {
   border-radius: 4px;
-  object-fit: contain;
 }
 
 .hero {
@@ -88,13 +87,15 @@ img {
 .content-container p {
   line-height: 30px;
 }
-.content {
-  margin: 25px;
-}
 .my-past {
   font-weight: bolder;
 }
-
+.project-name {
+  margin: 5px 0;
+}
+.weather-app-heading {
+  margin-top: 59px;
+}
 @media (max-width: 900px) {
   .hero {
     padding: 90px 0;
@@ -127,5 +128,11 @@ img {
   }
   .content-container h2 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .weather-app-heading {
+    margin-top: 10px;
   }
 }
