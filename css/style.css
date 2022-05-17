@@ -20,6 +20,7 @@ a {
 }
 img {
   border-radius: 4px;
+  object-fit: contain;
 }
 
 .hero {
@@ -74,20 +75,20 @@ img {
 .description {
   padding-top: 50px;
 }
-.about-me-section {
+.content-container {
   padding: 150px 0;
 }
-.about-me-section h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-me-section h2 {
+.content-container h2 {
   font-size: 18px;
   line-height: 27px;
 }
-.about-me-section p {
+.content-container p {
   line-height: 30px;
 }
-.about-me-text {
+.content {
   margin: 25px;
 }
 .my-past {
@@ -118,13 +119,13 @@ img {
     margin: 0 auto;
     width: 50%;
   }
-  .about-me-section {
+  .content-container {
     padding: 90px 0;
   }
-  .about-me-section h1 {
+  .content-container h1 {
     font-size: 54px;
   }
-  .about-me-section h2 {
+  .content-container h2 {
     font-size: 20px;
   }
 }
