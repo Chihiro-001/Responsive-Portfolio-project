@@ -26,9 +26,7 @@ li {
   display: inline;
   margin-left: 25px;
 }
-.navbar {
-  background: var(--secondary-color);
-}
+
 .navbar ul {
   margin-bottom: 0;
 }
@@ -117,12 +115,18 @@ li {
   margin-top: 50px;
 }
 .contact-icon {
-  color: black;
-  font-size: 3em;
+  color: var(--branding-color);
+  font-size: 2em;
   margin: 20px;
 }
 .logo {
   max-height: 40px;
+}
+.email {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
@@ -157,5 +161,8 @@ li {
   }
   .content-container h2 {
     font-size: 20px;
+  }
+  .email {
+    font-size: 16px;
   }
 }
