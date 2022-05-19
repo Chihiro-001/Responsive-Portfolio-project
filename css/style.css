@@ -22,6 +22,25 @@ img {
   border-radius: 4px;
 }
 
+li {
+  display: inline;
+  margin-left: 25px;
+}
+.navbar {
+  background: var(--secondary-color);
+}
+.navbar ul {
+  margin-bottom: 0;
+}
+.navbar a {
+  color: #655560;
+  text-decoration: none;
+  transition: 2s;
+}
+.navbar a:hover,
+.navbar li.active {
+  color: #41d8bf;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -101,6 +120,9 @@ img {
   color: black;
   font-size: 3em;
   margin: 20px;
+}
+.logo {
+  max-height: 40px;
 }
 
 @media (max-width: 900px) {
