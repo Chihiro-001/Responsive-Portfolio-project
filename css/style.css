@@ -128,6 +128,14 @@ li {
   font-weight: bold;
   text-decoration: none;
 }
+.contact-box {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  padding: 20px;
+}
+.contact-box btn {
+  display: inline;
+}
 
 @media (max-width: 900px) {
   .hero {
