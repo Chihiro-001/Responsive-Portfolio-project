@@ -26,6 +26,17 @@ li {
   display: inline;
   margin-left: 25px;
 }
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  padding: 30px;
+}
+footer .contact-box p {
+  margin-bottom: 0;
+}
+footer .contact-box h4 {
+  font-size: 48px;
+}
 
 .navbar ul {
   margin-bottom: 0;
@@ -128,14 +139,6 @@ li {
   font-weight: bold;
   text-decoration: none;
 }
-.contact-box {
-  background: var(--secondary-color);
-  border-radius: 4px;
-  padding: 20px;
-}
-.contact-box btn {
-  display: inline;
-}
 
 @media (max-width: 900px) {
   .hero {
@@ -172,5 +175,17 @@ li {
   }
   .email {
     font-size: 16px;
+  }
+  footer .contact-box {
+    background: var(--secondary-color);
+    border-radius: 4px;
+    padding: 13px;
+  }
+  footer .contact-box h4 {
+    font-size: 25px;
+    text-align: left;
+  }
+  footer .contact-box p {
+    text-align: left;
   }
 }
