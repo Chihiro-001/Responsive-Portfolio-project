@@ -13,10 +13,12 @@ h5,
 h6 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 p,
 a {
   font-family: var(--default-font-family);
+  line-height: 30px;
 }
 img {
   border-radius: 4px;
@@ -62,7 +64,6 @@ footer .contact-box h4 {
 }
 .hero h1 {
   font-size: 96px;
-  font-weight: bold;
 }
 .hero h2 {
   font-family: var(--default-font-family);
@@ -91,13 +92,10 @@ footer .contact-box h4 {
 }
 
 .container h2 {
-  font-weight: bold;
   font-size: 64px;
   line-height: 85px;
 }
-.container p {
-  line-height: 30px;
-}
+
 .description {
   padding-top: 50px;
 }
@@ -111,12 +109,10 @@ footer .contact-box h4 {
   font-size: 18px;
   line-height: 27px;
 }
-.content-container p {
-  line-height: 30px;
+.logo {
+  max-height: 40px;
 }
-.my-past {
-  font-weight: bolder;
-}
+
 .project-name {
   font-family: var(--default-font-family);
   font-weight: bold;
@@ -130,13 +126,10 @@ footer .contact-box h4 {
   font-size: 2em;
   margin: 20px;
 }
-.logo {
-  max-height: 40px;
-}
+
 .email {
   color: black;
   font-size: 24px;
-  font-weight: bold;
   text-decoration: none;
 }
 .inquiry-btn {
