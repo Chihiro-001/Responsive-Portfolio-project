@@ -1,6 +1,7 @@
 :root {
   --branding-color: #375541;
   --secondary-color: #fff4ea;
+  --third-color: #53a8b6;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -48,9 +49,9 @@ footer .contact-box h4 {
   text-decoration: none;
   transition: 2s;
 }
-.navbar a:hover,
-.navbar li.active {
-  color: #41d8bf;
+nav a:hover,
+nav li.active a {
+  color: var(--third-color);
 }
 .hero {
   background-color: var(--secondary-color);
@@ -73,16 +74,29 @@ footer .contact-box h4 {
   border-radius: 4px;
   text-decoration: none;
   padding: 18px 30px;
+  transition: 2s;
 }
 .branding-btn {
   background-color: var(--branding-color);
   color: white;
 }
+
+.branding-btn:hover {
+  background-color: var(--third-color);
+  border-color: var(--branding-color);
+  color: white;
+}
+
 .link-btn {
   background-color: white;
   border-style: solid;
   border-color: var(--branding-color);
   color: var(--branding-color);
+}
+
+.link-btn:hover {
+  background-color: var(--branding-color);
+  color: white;
 }
 
 .intro-to-my-project {
