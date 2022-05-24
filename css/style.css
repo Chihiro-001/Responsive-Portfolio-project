@@ -47,7 +47,7 @@ footer .contact-box h4 {
 .navbar a {
   color: #655560;
   text-decoration: none;
-  transition: 2s;
+  transition: all 2s ease-in-out;
 }
 nav a:hover,
 nav li.active a {
@@ -74,7 +74,7 @@ nav li.active a {
   border-radius: 4px;
   text-decoration: none;
   padding: 18px 30px;
-  transition: 2s;
+  transition: all 2s ease-in-out;
 }
 .branding-btn {
   background-color: var(--branding-color);
